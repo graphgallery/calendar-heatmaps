@@ -1,7 +1,5 @@
 #calender chart
-
 rm(list=ls())
-
 #install package
 #install.packages("calendR")
 
@@ -33,5 +31,5 @@ calendR(year = 2021,
         gradient = TRUE,                  # Set gradient = TRUE to create the heatmap
         special.col = "blue",             # Color of the gradient for the highest value
         legend.pos = "right",             # Position of the legend
-        legend.title = "mm",          # Title of the legend
+        legend.title = "mm",              # Title of the legend
         orientation = "portrait")         #orientation of the  map
